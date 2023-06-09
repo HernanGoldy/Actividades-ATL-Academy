@@ -17,9 +17,9 @@ public class ConvierteMillasAKm {
 
         System.out.println("Ingrese una distancia en millas:");
 
-        Double millas = datosMillas.nextDouble();
+        double millas = datosMillas.nextDouble();
 
-        Double kilometros = millas * 1.60934;
+        double kilometros = millas * 1.60934;
 
         System.out.println("Las distancia en millas ingresadas equivale a " + kilometros + " kilómetros.");
     }
