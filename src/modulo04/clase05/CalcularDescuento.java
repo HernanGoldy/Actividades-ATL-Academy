@@ -16,18 +16,17 @@ public class CalcularDescuento {
 
         Scanner ingresaDatos = new Scanner(System.in);
 
-        System.out.println("Ingrese el total de la cuenta:");
+        System.out.println("Ingrese el precio original del producto:");
 
-        double totalCuenta = ingresaDatos.nextDouble();
+        double precioOriginal = ingresaDatos.nextDouble();
 
-        System.out.println("Ingrese el porcentaje de propina que desea dejar:");
+        System.out.println("Ingrese el porcentaje de descuento del producto:");
 
-        double porcentajePropina = ingresaDatos.nextDouble();
+        double descuento = ingresaDatos.nextDouble();
 
-        double propina = totalCuenta * (porcentajePropina / 100);
+        double precioFinal = precioOriginal - (precioOriginal * descuento / 100);
 
-        double totalAPagar = totalCuenta * propina;
+        System.out.println("El total a abonar con el descuento incluído es de: " + "$" + precioFinal + "\nFin del programa.");
 
-        System.out.println("El total que debe abonar con propina incluída es de: " + totalAPagar);
     }
 }
