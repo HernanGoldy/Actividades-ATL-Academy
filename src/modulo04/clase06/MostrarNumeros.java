@@ -10,7 +10,7 @@ public class MostrarNumeros {
 
         int contador = 0;
 
-        while (contador < 100) {
+        while (contador < 3) {
 
             contador++;
 
