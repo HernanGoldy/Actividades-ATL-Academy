@@ -1,6 +1,6 @@
 package modulo06.clase13.ejercicio1;
 
-public class Figura {
+public abstract class Figura {
 
     // atributos (características)
     private String colorFondo;
@@ -14,7 +14,5 @@ public class Figura {
     }
 
     // métodos/funciones (Comportamientos)
-    public double calcularArea() {
-        return 0;
-    }
+    public abstract double calcularArea(); // Las funciones abstractas no tienen cuerpo.
 }

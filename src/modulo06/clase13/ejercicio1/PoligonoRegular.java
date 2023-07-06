@@ -2,7 +2,7 @@ package modulo06.clase13.ejercicio1;
 
 import java.util.Scanner;
 
-public class PoligonoRegular extends Figura {
+public abstract class PoligonoRegular extends Figura {
 
     // atributos (características)
     protected double base;
@@ -24,4 +24,7 @@ public class PoligonoRegular extends Figura {
         System.out.println("Ingresa la altura en cm:");
         altura = teclado.nextInt();
     }
+
+    @Override
+    public abstract double calcularArea();
 }
