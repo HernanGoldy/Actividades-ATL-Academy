@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "nombre": "Lucas",
+    "apellido": "Moy",
+    "telefono": 123456789,
+    "email": "lucas@atlacademy.com"
+  },
+  {
+    "id": 2,
+    "nombre": "Pepe",
+    "apellido": "Moy",
+    "telefono": 987654321,
+    "email": "pepe@atlacademy.com"
+  }
+]
