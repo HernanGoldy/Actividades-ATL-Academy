@@ -27,7 +27,7 @@ public class Main {
             }
             System.out.print("Resumen :");
             cuenta.mostrarDatos();
-            System.out.println("Desear continuar? Si o no");
+            System.out.println("Desear continuar? si o no");
             opcion = read.next();
 
         } while (opcion.equalsIgnoreCase("si"));
