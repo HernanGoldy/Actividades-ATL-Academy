@@ -1,16 +1,14 @@
-package example.figuras;
+package modulo08.clase24.figuras;
 
 public class Circulo implements FiguraGeometrica {
 
     private double radio;
 
-    @Override
     public double area() {
-        return Math.round(Math.PI * (radio * radio));
+        return (double) Math.round(Math.PI * this.radio * this.radio);
     }
 
     public Circulo(double radio) {
         this.radio = radio;
     }
-
 }

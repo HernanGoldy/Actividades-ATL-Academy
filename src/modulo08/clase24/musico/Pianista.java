@@ -1,4 +1,4 @@
-package example.musico;
+package modulo08.clase24.musico;
 
 public class Pianista implements Musico {
 
@@ -6,5 +6,10 @@ public class Pianista implements Musico {
     public void tocarInstrumento() {
 
         System.out.println("Que lindo es tocar el piano");
+    }
+
+    public static interface Musico {
+
+        public void tocarInstrumento();
     }
 }

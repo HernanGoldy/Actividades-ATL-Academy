@@ -1,4 +1,4 @@
-package example.musico;
+package modulo08.clase24.musico;
 
 public class Guitarrista implements Musico {
 
